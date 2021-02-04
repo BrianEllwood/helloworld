@@ -1,5 +1,5 @@
 IMAGE := dexydogz/helloworld
-TAG := 1.8
+TAG := 1.9
 
 .built-image: Dockerfile Gemfile Gemfile.lock makefile
 	docker build -t $(IMAGE) .
