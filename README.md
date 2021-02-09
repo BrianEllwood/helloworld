@@ -14,4 +14,4 @@ Ruby Hello World
 
 The image is also stored in docker hub so you can also do the following
 
-docker pull dexydogz/cheers2019 
+docker pull dexydogz/helloworld:1.9 
