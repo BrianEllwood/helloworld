@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: rubyapp-service
+  name: helloworld
   labels:
-    app: rubyapp-service
+    app: helloworld
 spec:
   ports:
   - port: 3333
     name: http
     targetPort: 3333
   selector:
-    app: helloworld-rubyapp
+    app: helloworld
